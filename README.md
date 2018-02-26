@@ -1,6 +1,6 @@
 # sample-botfuel-dialog-trip-planner
 
-This sample bot is used in [**Getting Started**](https://docs.botfuel.io/dialog/demos/trip-planner).
+This sample bot is used in the [**Trip Planner demo**](https://docs.botfuel.io/dialog/demos/trip-planner).
 
 ## How to run the bot
 
