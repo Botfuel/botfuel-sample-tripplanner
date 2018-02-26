@@ -1,5 +1,7 @@
 # sample-botfuel-dialog-trip-planner
 
+This sample bot is used in [**Getting Started**](https://docs.botfuel.io/dialog/demos/trip-planner).
+
 ## How to run the bot
 
 Clone the repository:
@@ -35,7 +37,7 @@ Try typing `I want to travel`!
 
 ## Need help ?
 
-* See [**Getting Started**](https://docs.botfuel.io/dialog/getting-started) to learn how to run a bot in minutes.
+* See [**Getting Started**](https://docs.botfuel.io/dialog/tutorials/getting-started) to learn how to run a bot in minutes.
 * See [**Concepts**](https://docs.botfuel.io/dialog/concepts) for explanations about the internals of the SDK.
 
 ## License
