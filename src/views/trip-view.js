@@ -8,10 +8,12 @@ const makeInfo = (entities) => {
 
   return `
     Here is a summary of the information you gave me:
-    ${destination ? `Destination: ${destination}` : ''}
-    ${date ? `Date: ${date}` : ''}
-    ${passengerNumber ? `Number of passengers: ${passengerNumber}` : ''}
-    ${ages ? `Ages of passengers: ${ages}` : ''}
+    <ul>
+    ${destination ? `<li>Destination: ${destination}</li>` : ''}
+    ${date ? `<li>Date: ${date}</li>` : ''}
+    ${passengerNumber ? `<li>Number of passengers: ${passengerNumber}</li>` : ''}
+    ${ages ? `<li>Ages of passengers: ${ages}</li>` : ''}
+    </ul>
   `;
 };
 
