@@ -1,3 +1,5 @@
 module.exports = {
-  adapter: 'botfuel',
+  adapter: {
+    name: 'botfuel',
+  },
 };
