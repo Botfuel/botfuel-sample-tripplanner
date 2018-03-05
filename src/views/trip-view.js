@@ -4,7 +4,7 @@ const makeInfo = (entities) => {
   const destination = entities.destination && entities.destination.values[0].value;
   const date = entities.date && new Date(entities.date.values[0].milliseconds);
   const passengerNumber = entities.passengerNumber && entities.passengerNumber.values[0].value;
-  const ages = entities.ages && entities.ages.map(age => age.values[0].value);
+  const tripType = entities.tripType && entities.tripType.values[0].value;
 
   return `
     Here is a summary of the information you gave me:
@@ -12,7 +12,7 @@ const makeInfo = (entities) => {
     ${destination ? `<li>Destination: ${destination}</li>` : ''}
     ${date ? `<li>Date: ${date}</li>` : ''}
     ${passengerNumber ? `<li>Number of passengers: ${passengerNumber}</li>` : ''}
-    ${ages ? `<li>Ages of passengers: ${ages}</li>` : ''}
+    ${tripType ? `<li>Trip type: ${tripType}</li>` : ''}
     </ul>
   `;
 };
@@ -25,10 +25,10 @@ const askInfo = (entityName) => {
       return 'When would you like to leave?';
     case 'passengerNumber':
       return 'How many are coming?';
-    case 'ages':
-      return 'Can you give me the ages of the remaining passengers?';
+    case 'tripType':
+      return 'Do you want a round-trip or a one-way ticket?';
     default:
-      return null;
+      return '';
   }
 };
 
