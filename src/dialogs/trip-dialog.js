@@ -14,13 +14,9 @@ Trip.params = {
     passengerNumber: {
       dim: 'number',
     },
-    ages: {
-      dim: 'number',
-      isFulfilled: (ages = [], { dialogEntities = {} } = {}) => (
-          dialogEntities.passengerNumber &&
-          ages.length >= dialogEntities.passengerNumber.values[0].value
-        ),
-      reducer: (oldAges, newAge) => [...(oldAges || []), newAge],
+    tripType: {
+      dim: 'trip-type',
+      priority: 10,
     },
   },
 };
