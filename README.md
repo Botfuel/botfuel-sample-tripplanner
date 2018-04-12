@@ -1,4 +1,4 @@
-# sample-botfuel-dialog-trip-planner
+# botfuel-sample-tripplanner
 
 This sample bot is used in the [**Trip Planner demo**](https://docs.botfuel.io/dialog/demos/trip-planner).
 
@@ -7,13 +7,13 @@ This sample bot is used in the [**Trip Planner demo**](https://docs.botfuel.io/d
 Clone the repository:
 
 ```shell
-git clone git@github.com:Botfuel/sample-botfuel-dialog-trip-planner.git
+git clone git@github.com:Botfuel/botfuel-sample-tripplanner.git
 ```
 
 Install dependencies:
 
 ```shell
-cd sample-botfuel-dialog-trip-planner
+cd botfuel-sample-tripplanner
 npm install
 ```
 

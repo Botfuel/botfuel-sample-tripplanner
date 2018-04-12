@@ -1,12 +1,12 @@
 {
-  "name": "sample-botfuel-dialog-trip-planner",
+  "name": "botfuel-sample-tripplanner",
   "version": "0.1.0",
   "private": true,
   "author": "sysadmin@botfuel.io",
   "description": "Sample trip planner bot using botfuel-dialog",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Botfuel/sample-botfuel-dialog-trip-planner"
+    "url": "https://github.com/Botfuel/botfuel-sample-tripplanner"
   },
   "license": "Apache-2.0",
   "scripts": {
