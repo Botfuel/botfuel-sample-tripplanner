@@ -1,2 +1,2 @@
-one-way,one way,one,way
+one-way,one way
 round-trip,round,round trip,roundtrip

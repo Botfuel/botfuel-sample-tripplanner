@@ -10,9 +10,9 @@ const makeInfo = (entities) => {
     Here is a summary of the information you gave me:
     <ul>
     ${destination ? `<li>Destination: ${destination}</li>` : ''}
+    ${tripType ? `<li>Trip type: ${tripType}</li>` : ''}
     ${date ? `<li>Date: ${date}</li>` : ''}
     ${passengerNumber ? `<li>Number of passengers: ${passengerNumber}</li>` : ''}
-    ${tripType ? `<li>Trip type: ${tripType}</li>` : ''}
     </ul>
   `;
 };
@@ -42,11 +42,11 @@ class TripView extends PromptView {
     }
 
     // Ask for any missing information
-    if (Object.keys(missingEntities).length !== 0) {
-      messages.push(new BotTextMessage(askInfo(Object.keys(missingEntities)[0])));
+    if (missingEntities.size !== 0) {
+      messages.push(new BotTextMessage(askInfo(missingEntities.keys().next().value)));
     }
 
-    if (!Object.keys(missingEntities).length) {
+    if (missingEntities.size === 0) {
       messages.push(new BotTextMessage('Ok, I have all I need to book your trip.'));
     }
 
