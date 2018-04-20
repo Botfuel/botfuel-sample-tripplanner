@@ -1,7 +1,7 @@
 const { PromptView, BotTextMessage } = require('botfuel-dialog');
 
 class NameView extends PromptView {
-  render(userMessag, {matchedEntities}) {
+  render(userMessage, {matchedEntities}) {
     const name = matchedEntities.name && matchedEntities.name.values[0].value;
 
     if (name) {
