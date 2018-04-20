@@ -1,6 +1,7 @@
 {
   "env": {
-    "node": true
+    "node": true,
+    "jest": true
   },
   "plugins": ["node"],
   "extends": ["eslint:recommended", "airbnb"],

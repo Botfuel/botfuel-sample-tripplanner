@@ -12,6 +12,7 @@
   "scripts": {
     "start": "botfuel-run",
     "style": "eslint .",
+    "test": "jest",
     "train": "botfuel-train"
   },
   "dependencies": {
@@ -25,7 +26,8 @@
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-mocha": "^4.11.0",
     "eslint-plugin-node": "^5.1.0",
-    "eslint-plugin-react": "^7.1.0"
+    "eslint-plugin-react": "^7.1.0",
+    "jest": "^22.4.3"
   },
   "engines": {
     "node": "8.x"
