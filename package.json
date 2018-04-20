@@ -11,6 +11,7 @@
   "license": "Apache-2.0",
   "scripts": {
     "start": "botfuel-run",
+    "style": "eslint .",
     "train": "botfuel-train"
   },
   "dependencies": {
