@@ -33,7 +33,7 @@ const askInfo = (entityName) => {
 };
 
 class TripView extends PromptView {
-  renderEntities(matchedEntities, missingEntities) {
+  render(userMessage, {matchedEntities, missingEntities}) {
     const messages = [];
 
     // Print info of obtained information
