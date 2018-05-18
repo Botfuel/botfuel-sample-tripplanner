@@ -2,6 +2,25 @@
 
 This sample bot is used in the [**Trip Planner demo**](https://docs.botfuel.io/dialog/demos/trip-planner).
 
+## Create an app
+
+* Create a new app on Botfuel Trainer (https://app.botfuel.io). See the [Getting Started tutorial](https://docs.botfuel.io/platform/tutorials/getting-started) for how to create a new app.
+
+* Add an intent with lable `trip` with the following training phrases for examples:
+
+  * What are the available planes to Madrid?
+  * I would like to book a flight to Paris.
+  * I want to book a trip.
+  * Can I buy a ticket to New-York?
+
+* Add an intent with lable `name` with the following training phrases for examples:
+
+  * My name is Bob.
+
+* Add an intent with lable `greetings` with the following training phrases for examples:
+  * Hi
+  * Hello
+
 ## How to run the bot
 
 Clone the repository:
