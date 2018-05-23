@@ -1,6 +1,6 @@
 {
   "name": "botfuel-sample-tripplanner",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "private": true,
   "author": "sysadmin@botfuel.io",
   "description": "Sample trip planner bot using botfuel-dialog",
@@ -12,11 +12,10 @@
   "scripts": {
     "start": "botfuel-run",
     "style": "eslint .",
-    "test": "jest",
-    "train": "botfuel-train"
+    "test": "jest"
   },
   "dependencies": {
-    "botfuel-dialog": "^7.2.1"
+    "botfuel-dialog": "^8.0.2"
   },
   "devDependencies": {
     "eslint": "3.19.0",
