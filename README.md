@@ -21,6 +21,8 @@ This sample bot is used in the [**Trip Planner demo**](https://docs.botfuel.io/d
   * Hi
   * Hello
 
+  You can get examples of intents here : https://github.com/Botfuel/botfuel-sample-tripplaner/intents.xlsx
+
 ## How to run the bot
 
 Clone the repository:
