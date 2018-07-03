@@ -15,7 +15,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "botfuel-dialog": "^8.0.2"
+    "botfuel-dialog": "^9.0.0"
   },
   "devDependencies": {
     "eslint": "3.19.0",
