@@ -4,7 +4,7 @@ This sample bot is used in the [**Trip Planner demo**](https://docs.botfuel.io/p
 
 ## Create an app
 
-* Create a new app on Botfuel Trainer (https://app.botfuel.io). See the [Getting Started tutorial](https://docs.botfuel.io/platform/tutorials/getting-started) for how to create a new app.
+* Create a new app on Botfuel Trainer (https://app.botfuel.io). See the [Getting Started tutorial](https://tutorials.botfuel.io/#/codelab/getting-started?step=1) for how to create a new app.
 
 * Add an intent with lable `trip` with the following training phrases for examples:
 
@@ -57,7 +57,7 @@ Try typing `I want to travel`!
 
 ## Need help ?
 
-* See [**Getting Started**](https://docs.botfuel.io/platform/tutorials/getting-started) to learn how to run a bot in minutes.
+* See [**Getting Started**](https://tutorials.botfuel.io/#/codelab/getting-started?step=1) to learn how to run a bot in minutes.
 * See [**Concepts**](https://docs.botfuel.io/platform/concepts) for explanations about the internals of the SDK.
 
 ## License
